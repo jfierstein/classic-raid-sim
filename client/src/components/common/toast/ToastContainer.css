@@ -1,0 +1,25 @@
+.toast {
+    position: fixed;    
+}
+.top-right {
+    top: 45px;
+    right: 5px;    
+}
+.top-left {
+    top: 45px;
+    left: 5px;    
+}
+.bottom-left {
+    bottom: 5px;
+    left: 5px;    
+}
+.bottom-right {
+    bottom: 5px;
+    right: 5px;
+}
+.close {
+    color: #95a5a6;
+}
+.close:hover {
+    color: #7c7c7c;
+}

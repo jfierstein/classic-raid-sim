@@ -1,0 +1,310 @@
+body {
+	height: 100%;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+span.link {
+	color: #18BC9C
+}
+
+span.link:hover {
+	color: #2e2e2e !important;
+	cursor: pointer;
+}
+
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.app-icon {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.app-heading {
+	color: #2c3e50;
+}
+
+.app-icon-block {
+    margin-left: 5px;
+	margin-right: 5px;
+	width: 20px;
+}
+
+.app-icon-left {
+    margin-right: 5px;
+}
+
+.app-icon-block-left {
+	margin-right: 5px;
+	width: 20px;
+}
+
+.app-icon-right {
+    margin-left: 5px;
+}
+
+.app-badge-right {
+    margin-left: 10px;
+}
+
+.app-card {
+	margin-bottom: 15px;
+}
+
+.app-nav {
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.btn-toolbar .btn:first-child {
+	margin-right: 5px;
+	margin-left: 0px;
+}
+
+.btn-toolbar .btn:last-child {
+	margin-right: 5px;
+	margin-left: 0px;
+}
+
+.btn-toolbar .btn:not(:first-child):not(:last-child) {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+button:disabled {
+	cursor: not-allowed !important;
+	pointer-events: all !important;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.breadcrumb {
+	background-color: rgba(255, 255, 255, 0);
+	padding: 0px 0px;
+}
+
+.card-subtitle {
+	color: #5a5a5a;
+}
+
+.row-spaced {
+	margin-bottom: 10px;
+}
+
+.delete-badge:hover {
+	/*background-color: rgba(231, 76, 60, 0.8);*/
+	background-color: #E74C3C;
+}
+
+.info-badge:hover {
+	/*background-color: rgba(231, 76, 60, 0.8);*/
+	background-color: #3498DB;
+}
+
+.tight-spaced {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.slide-down-fade-in {
+	opacity: 1;
+	animation-name: slideDownFadeIn;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-duration: .7s;
+}
+
+.slide-down {
+	opacity: 1;
+	animation-name: slideDown;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-duration: .7s;
+}
+
+.slide-up {
+	animation-name: slideUp;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-duration: .7s;
+}
+
+.slide-up-fade-out {
+	animation-name: slideUpFadeOut;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-duration: .7s;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-duration: .75s;
+}
+
+.fade-out {
+	opacity: 0;
+	animation-name: fadeOutOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-duration: .75s;
+}
+
+.card-header .fa {
+	transition: .3s transform ease-in-out;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.left-align {
+	text-align: left;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+a.app-link {
+	cursor: pointer;
+	color: #18BC9C !important;
+}
+a.app-link:hover {
+	color: #2e2e2e !important;
+	text-decoration: none !important;
+}
+
+.contact-heading {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+ul { 
+	padding-inline-start: 10px !important; 
+}
+
+.hidden {
+	display: none;
+}
+
+.slide-left-fade-out {
+	opacity: 0;
+	animation-name: slideLeftFadeOut;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-duration: .5s;
+}
+
+.rbt-close {
+	margin-top: 0px !important;
+}
+
+.help-icon {
+	color: #7b8a8b !important;
+	cursor: pointer;
+}
+
+.help-icon:hover {
+	color: #3498DB !important;
+}
+
+.mid-modal-header {
+	padding: 10px 1rem 10px 1rem;
+}
+
+.dropdown-button-label {
+	margin-top: 12px;
+	margin-right: 5px;
+}
+
+
+@keyframes slideLeftFadeOut {
+	0% {
+		opacity: 1;	
+		transform: translateX(0%);
+	}	
+	100% {
+		opacity: 0;
+		transform: translateX(-50%);
+	}		
+}
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOutOpacity {
+	0% {
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+@keyframes slideDownFadeIn {
+	0% {
+		opacity: 0;	
+		transform: translateY(-100%);
+	}	
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}		
+}
+
+
+@keyframes slideDown {
+	0% {
+		transform: translateY(-100%);
+	}	
+	100% {
+		transform: translateY(0%);
+	}		
+}
+
+@keyframes slideUpFadeOut {
+	0% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(-100%);
+	}		
+}
+
+@keyframes slideUp {
+	0% {
+		transform: translateY(0%);
+	}
+	100% {	
+		transform: translateY(-100%);
+	}		
+}

@@ -1,5 +1,6 @@
-## Fantasy Football Source
-### fantasy_web
-Web Application frontend for viewing the data collected by fantasy_data
+## clasic-raid-sim
 
-Currently the data source is pro-football-reference.com
+1.) Clone the repo
+2.) Run `yarn install`
+3.) `yarn server-start` to run the server
+4.) `yarn watch` to run webpack dev-server
